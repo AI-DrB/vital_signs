@@ -33,9 +33,9 @@ If the respiratory rate or heart rate is '0', the program stops and recommends i
 
 # 4) File Structure:
 
- project.py       # Main Program: Python script with all health logic
+ vital_signs.py       # Main Program: Python script with all health logic
  README.md        # Project documentation (this file)
- test_project.py  # Unit tests for functions: pytest script to test health logic
+ test_vital_signs.py  # Unit tests for functions: pytest script to test health logic
 
 # 5) Requirements:
 
@@ -60,7 +60,7 @@ If the respiratory rate or heart rate is '0', the program stops and recommends i
 
 # 8) Example Usage:
 
-project/ $ python project.py
+vital_signs/ $ python vital_signs.py
 What's the respiratory rate per min? 18
 What's the heart rate per min? 75
 What's the blood pressure? 118/76
